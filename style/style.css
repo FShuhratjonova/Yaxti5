@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    background: rgba(1, 33, 70, 1);
+}
+
+.main_items{
+    background: rgba(239, 247, 252, 1);
+    width: 580px;
+    height: 570px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.main_items_h1{
+    font-size: 32px;
+    line-height: 32px;
+    color: rgba(32, 86, 148, 1);
+    margin-top: 37px;
+    margin-left: 50px;
+    margin-bottom: 43px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.times{
+    font-size: 26px;
+    color: rgba(32, 86, 148, 1);
+    margin-top: 45px;
+    margin-left: 150px;
+}
+
+.select1{
+    width: 480px;
+    height: 56px;
+    border: 1px solid rgba(212, 227, 236, 1);
+    border-radius: 6px;
+    margin-left: 50px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    padding-left: 24px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.select2{
+    width: 480px;
+    height: 56px;
+    border: 1px solid rgba(212, 227, 236, 1);
+    border-radius: 6px;
+    outline: none;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: darkgray;
+    padding-left: 24px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.paragraph1{
+    width: 232px;
+    height: 56px;
+    background: white;
+    border: 1px solid rgba(212, 227, 236, 1);
+    border-radius: 6px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 16px;
+    color: darkgray;
+    padding-left: 24px;
+    padding-top: 20px;
+    margin-right: 10px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.paragraph2{
+    font-size: 16px;
+    line-height: 16px;
+    color: darkgray;
+    margin-left: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.calendar{
+    font-size: 18px;
+    color: rgba(32, 86, 148, 1);
+    margin-left: 25px;
+    margin-right: 18px;
+    margin-top: 16px;
+}
+
+.itemla{
+    width: 232px;
+    height: 56px;
+    background: white;
+    border: 1px solid rgba(212, 227, 236, 1);
+    border-radius: 6px;
+}
+
+.itemla2 input{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-right: 12px;
+}
+
+.input_p{
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+    margin-top: 16px;
+}  
+
+.input_p2{
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+    margin-top: 16px;
+    color: darkgray;
+}
+
+.paragraph3{
+    width: 232px;
+    height: 56px;
+    background: white;
+    border: 1px solid rgba(212, 227, 236, 1);
+    border-radius: 6px;
+    padding-left: 24px;
+    padding-top: 20px;
+    margin-top: 23px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 16px;
+    color: darkgray;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.paragraph4{
+    width: 232px;
+    height: 56px;
+    background: white;
+    border: 1px solid rgba(212, 227, 236, 1);
+    border-radius: 6px;
+    padding-left: 24px;
+    padding-top: 20px;
+    margin-top: 23px;
+    font-size: 16px;
+    line-height: 16px;
+    color: darkgray;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.button_div{
+    width: 480px;
+    height: 56px;
+    background: linear-gradient(0deg, #FFC42C, #FFC42C),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 0px 4px 0px rgba(255, 255, 255, 1) inset;
+    border-radius: 10px;
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
